@@ -1,0 +1,37 @@
+PS C:\Users\Nisreen> cd
+PS C:\Users\Nisreen> mkdir discovery_piscine
+
+
+    Directory: C:\Users\Nisreen
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/3/2026   8:52 AM                discovery_piscine
+
+
+PS C:\Users\Nisreen> cd discovery_piscine
+PS C:\Users\Nisreen\discovery_piscine> mkdir cell00
+
+
+    Directory: C:\Users\Nisreen\discovery_piscine
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/3/2026   8:54 AM                cell00
+
+
+PS C:\Users\Nisreen\discovery_piscine> cd cell00
+PS C:\Users\Nisreen\discovery_piscine\cell00> mkdir ex00
+
+
+    Directory: C:\Users\Nisreen\discovery_piscine\cell00
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/3/2026   8:54 AM                ex00
+
+
+PS C:\Users\Nisreen\discovery_piscine\cell00>
