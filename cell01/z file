@@ -1,0 +1,40 @@
+PS C:\Users\Nisreen> cd discovery_piscine
+PS C:\Users\Nisreen\discovery_piscine> dir
+
+
+    Directory: C:\Users\Nisreen\discovery_piscine
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/3/2026   8:54 AM                cell00
+
+
+PS C:\Users\Nisreen\discovery_piscine> mkdir cell01
+
+
+    Directory: C:\Users\Nisreen\discovery_piscine
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/3/2026   9:16 AM                cell01
+
+
+PS C:\Users\Nisreen\discovery_piscine> cd cell01
+PS C:\Users\Nisreen\discovery_piscine\cell01> mkdir ex01
+
+
+    Directory: C:\Users\Nisreen\discovery_piscine\cell01
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/3/2026   9:17 AM                ex01
+
+
+PS C:\Users\Nisreen\discovery_piscine\cell01> cd ex01
+PS C:\Users\Nisreen\discovery_piscine\cell01\ex01> echo Z > z
+PS C:\Users\Nisreen\discovery_piscine\cell01\ex01> cat z
+Z
+PS C:\Users\Nisreen\discovery_piscine\cell01\ex01>
