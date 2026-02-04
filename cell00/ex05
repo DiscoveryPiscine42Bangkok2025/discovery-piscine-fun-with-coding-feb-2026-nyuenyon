@@ -1,0 +1,34 @@
+Nisreen@LAPTOP-M5DFRFNL MINGW64 ~
+$ cd discovery_piscine
+
+Nisreen@LAPTOP-M5DFRFNL MINGW64 ~/discovery_piscine
+$ cd cell00
+
+Nisreen@LAPTOP-M5DFRFNL MINGW64 ~/discovery_piscine/cell00
+$ mkdir -p ex05
+
+Nisreen@LAPTOP-M5DFRFNL MINGW64 ~/discovery_piscine/cell00
+$ cd ex05
+
+Nisreen@LAPTOP-M5DFRFNL MINGW64 ~/discovery_piscine/cell00/ex05
+$ touch build.sh
+
+Nisreen@LAPTOP-M5DFRFNL MINGW64 ~/discovery_piscine/cell00/ex05
+$ nano build.sh
+
+Nisreen@LAPTOP-M5DFRFNL MINGW64 ~/discovery_piscine/cell00/ex05
+$ chmod +x build.sh
+
+Nisreen@LAPTOP-M5DFRFNL MINGW64 ~/discovery_piscine/cell00/ex05
+$ ./build.sh
+No arguments supplied
+
+Nisreen@LAPTOP-M5DFRFNL MINGW64 ~/discovery_piscine/cell00/ex05
+$ ./build.sh 00 01
+
+Nisreen@LAPTOP-M5DFRFNL MINGW64 ~/discovery_piscine/cell00/ex05
+$ ls
+build.sh*  ex00/  ex01/
+
+Nisreen@LAPTOP-M5DFRFNL MINGW64 ~/discovery_piscine/cell00/ex05
+$
