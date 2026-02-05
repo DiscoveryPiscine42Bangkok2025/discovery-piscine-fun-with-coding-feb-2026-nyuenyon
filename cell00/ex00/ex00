@@ -1,0 +1,15 @@
+PS C:\Users\Nisreen> cd discovery_piscine
+PS C:\Users\Nisreen\discovery_piscine> cd cell00
+PS C:\Users\Nisreen\discovery_piscine\cell00> mkdir ex00
+
+
+    Directory: C:\Users\Nisreen\discovery_piscine\cell00
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/5/2026   5:01 PM                ex00
+
+
+PS C:\Users\Nisreen\discovery_piscine\cell00> cd ex00
+PS C:\Users\Nisreen\discovery_piscine\cell00\ex00>
