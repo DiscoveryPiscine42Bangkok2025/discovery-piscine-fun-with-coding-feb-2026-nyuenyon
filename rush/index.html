@@ -1,0 +1,121 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Rush Project – Resume Summary</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+ 
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+
+  body {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5EFE6;
+    color: #4d3928;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("test_bg.jpg") center / cover no-repeat;
+    opacity: 0.3;
+    z-index: -1;
+  }
+
+    .font-nunito { font-family: 'Nunito', sans-serif; }
+    .font-playfair { font-family: 'Playfair Display', serif; }
+    .font-fredoka { font-family: 'Fredoka', sans-serif; letter-spacing: 1px; }
+
+    .text-size1 { font-size: 4.0rem; }
+    .text-size2 { font-size: 2.0rem; }
+    .text-size3 { font-size: 1.1rem; }
+    .text-size4 { font-size: 1.0rem; }
+    .text-size5 { font-size: 1.5rem; }
+
+    .text-weight1 { font-weight: 700; }
+    .text-weight2 { font-weight: 600; }
+    .text-weight3 { font-weight: 500; }
+    .text-weight4 { font-weight: 400; }
+
+    .card {
+      background-color: #F5EFE6;
+      border: 2px solid #ae7e54;
+      border-radius: 16px;
+      transition: transform 0.3s ease;
+    }
+
+    .card h1 { color: #584738; }
+    .card p,
+    .card h1.font-nunito { color: #584738; }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .btn-custom {
+      background-color: #ae7e54;
+      color: #F5EFE6;
+      border-radius: 30px;
+      padding: 10px 24px;
+    }
+
+    .btn-custom:hover {
+      background-color: #F5EFE6
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <section class="hero container">
+    <div class="row w-100 justify-content-center text-center">
+      <div class="col-12 mb-5">
+        <h1 class="mb-3 font-playfair text-size1 text-weight1">Rush Resume Project</h1>
+        <p class="lead font-nunito text-size5">Mini showcase site – Piscine Discovery</p>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card p-4 h-100">
+          <h1 class="font-playfair text-size2 text-weight3">Nisreen Yuenyong</h1>
+          <p>
+            <h1 class="font-nunito text-size3">Third-year student<br>Faculty of Liberal Arts, English Major</h1>
+          </p>
+          <a href="cv_nisreen.html"
+             class="btn btn-custom mt-3 font-fredoka text-size4">View Resume</a>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card p-4 h-100">
+          <h1 class="font-playfair text-size2 text-weight3">Pim-a sia Khanthawat</h1>
+          <p>
+            <h1 class="font-nunito text-size3">Third-year student<br>Faculty of Liberal Arts, English Major</h1>
+          </p>
+          <a href="cv_pimasia.html"
+             class="btn btn-custom mt-3 font-fredoka text-size4">View Resume</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
