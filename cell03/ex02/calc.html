@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <input type="text" id="left">
+    
+    <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+    </select>
+
+    <input type="text" id="right">
+
+    <input type="submit" value="Try me!" onclick="calculate()">
+
+    <script>
+        function calculate() {
+            var left = document.getElementById("left").value;
+            var right = document.getElementById("right").value;
+            var op = document.getElementById("operator").value;
+
+            if (!isPositiveInteger(left) || !isPositiveInteger(right)) {
+                alert("Error :(");
+                return;
+            }
+
+            left = parseInt(left);
+            right = parseInt(right);
+
+            if ((op === "/" || op === "%") && right === 0) {
+                alert("It’s over 9000!");
+                console.log("It’s over 9000!");
+                return;
+            }
+
+            var result;
+
+            if (op === "+") result = left + right;
+            else if (op === "-") result = left - right;
+            else if (op === "*") result = left * right;
+            else if (op === "/") result = left / right;
+            else if (op === "%") result = left % right;
+
+            alert(result);
+            console.log(result);
+        }
+
+        function isPositiveInteger(value) {
+            return /^\d+$/.test(value);
+        }
+
+        setInterval(function () {
+            alert("Please, use me...");
+        }, 30000);
+    </script>
+
+</body>
+</html>
