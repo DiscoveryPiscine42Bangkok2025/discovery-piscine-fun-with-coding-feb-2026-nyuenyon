@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Balloon</title>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#balloon {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+}
+</style>
+</head>
+
+<body>
+
+<div id="balloon"></div>
+
+<script>
+let size = 200;
+let colors = ["red", "green", "blue"];
+let i = 0;
+
+/* คลิก = ขยาย + เปลี่ยนสี */
+$("#balloon").click(function () {
+    size += 10;
+
+    if (size > 420) {
+        size = 200;
+        i = 0;
+    } else {
+        i = (i + 1) % 3;
+    }
+
+    $(this).css({
+        width: size,
+        height: size,
+        backgroundColor: colors[i]
+    });
+});
+
+/* เมาส์ออก = เล็กลง + สีย้อนกลับ */
+$("#balloon").mouseleave(function () {
+    size -= 5;
+    if (size < 200) size = 200;
+
+    i = (i + 2) % 3;
+
+    $(this).css({
+        width: size,
+        height: size,
+        backgroundColor: colors[i]
+    });
+});
+</script>
+
+</body>
+</html>
